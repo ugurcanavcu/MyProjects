@@ -1,5 +1,9 @@
 import openpyxl as xl
 from openpyxl.chart import BarChart, Reference
+"""
+You can evolve this automation to more complex automation by manipulating the given data using openpyxl library and achieve more complex
+targets.
+"""
 
 
 def process_workbook(filename):
@@ -25,3 +29,6 @@ def process_workbook(filename):
     sheet.add_chart(chart, "e2")
 
     wb.save(filename)
+
+    
+    
